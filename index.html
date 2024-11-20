@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ | 山田 太郎</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav-container">
+        <span class="logo">Portfolio</span>
+        <div class="nav-links">
+          <a href="#about">自己紹介</a>
+          <a href="#skills">スキル</a>
+          <a href="#projects">プロジェクト</a>
+          <a href="#contact">お問い合わせ</a>
+        </div>
+        <button class="menu-button" aria-label="メニュー">
+          <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>
+          はじめまして<br>
+          <span class="gradient-text">山田 太郎</span><br>
+          です
+        </h1>
+        <p class="subtitle">フルスタックエンジニア / UI/UXデザイナー</p>
+        <div class="hero-buttons">
+          <a href="#contact" class="button primary">お問い合わせ</a>
+          <a href="#projects" class="button secondary">プロジェクトを見る</a>
+        </div>
+        <div class="scroll-indicator">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title">自己紹介</h2>
+      <div class="about-content">
+        <p>
+          5年以上のWeb開発経験を持つフルスタックエンジニアです。
+          モダンなフロントエンド技術とスケーラブルなバックエンド設計を得意としています。
+          ユーザー体験を重視したUI/UXデザインにも情熱を持って取り組んでいます。
+        </p>
+        <div class="social-links">
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+      <h2 class="section-title">スキル</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>フロントエンド</h3>
+          <div class="skill-tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>バックエンド</h3>
+          <div class="skill-tags">
+            <span>Node.js</span>
+            <span>Python</span>
+            <span>PostgreSQL</span>
+            <span>GraphQL</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>デザイン</h3>
+          <div class="skill-tags">
+            <span>Figma</span>
+            <span>Adobe XD</span>
+            <span>UI/UX</span>
+            <span>Responsive Design</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <h3>その他</h3>
+          <div class="skill-tags">
+            <span>Git</span>
+            <span>Docker</span>
+            <span>AWS</span>
+            <span>Agile/Scrum</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">プロジェクト</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="ECサイトプラットフォーム">
+          </div>
+          <div class="project-content">
+            <h3>ECサイトプラットフォーム</h3>
+            <p>React と Node.js を使用した最新のECサイトプラットフォーム。決済システムの統合やリアルタイム在庫管理を実装。</p>
+            <div class="project-tags">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>PostgreSQL</span>
+              <span>Stripe</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="AIチャットボット">
+          </div>
+          <div class="project-content">
+            <h3>AIチャットボット</h3>
+            <p>自然言語処理を活用したカスタマーサポート向けチャットボット。応答時間の90%削減を実現。</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>TensorFlow</span>
+              <span>FastAPI</span>
+              <span>React</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section bg-light">
+      <h2 class="section-title">お問い合わせ</h2>
+      <div class="contact-content">
+        <p>お仕事のご依頼やご質問など、お気軽にお問い合わせください。</p>
+        <div class="contact-links">
+          <a href="mailto:contact@example.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>contact@example.com</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
